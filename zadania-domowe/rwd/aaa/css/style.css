@@ -1,0 +1,47 @@
+
+
+body {
+    background-color: white;
+    font-family: lato;
+    font-weight: 300;
+    padding: 0px auto;
+    margin: 0px auto;
+  
+
+}
+
+#naglowek .naglowek1 #obrazek1 img {
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+    
+}
+
+#naglowek .naglowek1 #opis {
+    position: absolute;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 50px;
+ text-align: center;
+    left: 50px;
+    top:200px;
+    vertical-align: middle;
+}
+
+#naglowek .naglowek1 #opis h1 {
+    font-size: 50px;
+}
+
+#naglowek .naglowek1 #opis h2 {
+    font-size: 30px;
+}
+
+@media all (min-width:1170px) {
+    #naglowek .naglowek1 #obrazek1 img {
+        height: 100%;
+          background-size: cover;
+    }
+}
+
