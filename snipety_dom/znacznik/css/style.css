@@ -1,0 +1,9 @@
+ul > #pierwszy-znacznik {
+    list-style-type: none;
+    font-family: 'FontAwesome';
+    margin-left: -1.23em;
+}
+
+ul > #pierwszy-znacznik > i {
+    font-size: 15px;
+}

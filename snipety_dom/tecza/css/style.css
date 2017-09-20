@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+}
+
+#teczowy-prostokat {
+    background: linear-gradient(to right, red, orange, yellow, lime, blue, purple, fuchsia);
+    width: 100%;
+    height: 200px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}

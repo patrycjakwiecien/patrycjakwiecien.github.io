@@ -1,0 +1,27 @@
+h2 {
+    color: mediumvioletred;
+}
+
+h3 {
+    color: salmon;
+}
+
+.angielski p:lang(en) {
+    quotes: "*" "*";
+}
+
+.angielski blockquote:lang(en):before {
+    content: "*"
+}
+
+.angielski blockquote:lang(en):after {
+    content: "*"
+}
+
+blockquote:before {
+    content: open-quote;
+}
+
+blockquote:after {
+    content: close-quote;
+}

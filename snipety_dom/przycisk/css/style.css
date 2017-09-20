@@ -1,0 +1,27 @@
+a.kolko {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    color: white;
+}
+
+a.kolko:hover {
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-width: 2px;
+    color: red;
+}
+
+a.kolko i {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 30px;
+}
+    

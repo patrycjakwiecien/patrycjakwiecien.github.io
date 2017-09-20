@@ -1,0 +1,8 @@
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:focus {
+    color: deeppink;
+}
