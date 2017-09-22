@@ -1,0 +1,46 @@
+h2 {
+    color: mediumvioletred;
+}
+
+h3 {
+    color: salmon;
+}
+
+.angielski p:lang(en) {
+    quotes: "*" "*";
+}
+
+.angielski blockquote:lang(en):before {
+    content: "*";
+}
+
+.angielski blockquote:lang(en):after {
+    content: "*";
+}
+
+.hiszpanski p:lang(es) {
+    quotes: '"' '"';
+}
+
+.hiszpanski blockquote:lang(es):before {
+    content: '"';
+}
+
+.hiszpanski blockquote:lang(es):after {
+    content: '"';
+}
+
+
+
+
+.francuski p:lang(fr) {
+    quotes: '"' '"';
+}
+
+.francuski blockquote:lang(fr):before {
+    content: '"';
+}
+
+.francuski blockquote:lang(fr):after {
+    content: '"';
+}
