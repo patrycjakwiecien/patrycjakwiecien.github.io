@@ -1,0 +1,28 @@
+body {
+    background-color: oldlace;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25%;
+}
+
+.pulse {
+    color: red;
+    font-weight: 600;
+    animation: pulse 3s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0;
+    }
+}

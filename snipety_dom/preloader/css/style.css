@@ -1,0 +1,35 @@
+body {
+    background-color: linen;
+}
+
+.animowany {
+    background-color: transparent;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.preloader {
+    width: 100px;
+    height: 100px;
+    border: 20px solid dodgerblue;
+    border-radius: 50%;
+    border-top: 20px solid darkorange;
+    border-bottom: 20px solid darkorange;
+    animation: rotacja 4s linear infinite;
+    margin-left: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+@keyframes rotacja {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
