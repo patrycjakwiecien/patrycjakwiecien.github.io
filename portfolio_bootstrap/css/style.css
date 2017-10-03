@@ -228,12 +228,9 @@ body {
 /*Sekcja Kontakt*/
 
 #contact {
-    color: #fff;
+     color: #fff;
     background-color: #213b50;
     padding: 5% 5% 5% 5%;
-}
-
-#contact {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     text-align: left;
@@ -275,6 +272,7 @@ body {
 }
 
 #contact-form {
+    margin-top:10%;
     margin-right: 10%;
     width: 100%;
     color: white;
